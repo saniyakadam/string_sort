@@ -28,18 +28,13 @@ int main(void) {
 	if (strlen(input[i]) > 25){
 	printf("please re-enter string less than 25 chars \n");
 	}
-	/*j=0;
-	while(j<i){
-		if (input[j]==input[i])
-			printf("duplicate entry. please enter a unique string");
-		}*/
-		i++;
-
+	else
+	i++;
 	}
 	printf("the strings are:");
 	for(i=0;i<10;i++)
 	{
-		printf("%s \n",input[i]);
+		printf("%s\n",input[i]);
 	}
 
 	return 0;
